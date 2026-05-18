@@ -5,6 +5,7 @@ import ChatBot from './components/ChatBot';
 import Home from './pages/Home';
 import Profession from './pages/Profession';
 import AllPaths from './pages/AllPaths';
+import Certifications from './pages/Certifications';
 import BackgroundIcons from './components/BackgroundIcons';
 
 function App() {
@@ -16,6 +17,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/all-paths" element={<AllPaths />} />
         <Route path="/profession/:id" element={<Profession />} />
+        <Route path="/certifications" element={<Certifications />} />
       </Routes>
       <Footer />
     </Router>

@@ -28,16 +28,20 @@ export const professions = [
     color: '#10b981',
     steps: [
       {
-        title: '1. Excel for Data Analysis',
-        videoUrl: 'https://www.youtube.com/embed/OOWAk2aLEfk',
+        title: '1. Python Full Course',
+        videoUrl: 'https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME',
       },
       {
-        title: '2. SQL for Data Science',
-        videoUrl: 'https://www.youtube.com/embed/HXV3zeQKqGY',
+        title: '2. Big Data - NumPy, Pandas & More',
+        videoUrl: 'https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9agK8pojo23OHiNz3Jm6VQCH',
       },
       {
-        title: '3. Power BI & Tableau',
-        videoUrl: 'https://www.youtube.com/embed/pxkvd_0s4tE',
+        title: '3. SQL & PostgreSQL',
+        videoUrl: 'https://www.youtube.com/embed/cnzka7kF5Zk',
+      },
+      {
+        title: "4. Data Analytics Full Course",
+        videoUrl: 'https://youtube.com/embed/videoseries?list=PLmejDGrsgFyCD25L2XEKESQEw8smsY6WO',
       }
     ]
   },

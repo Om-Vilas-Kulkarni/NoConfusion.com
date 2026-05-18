@@ -87,6 +87,156 @@ const Home = () => {
         </div>
       </section>
 
+      {/* Skills Carousel Section */}
+      <section className="skills-carousel-section section-padding">
+        <div className="container">
+          <h2 className="section-title text-center reveal">Relevant Industry Skills</h2>
+        </div>
+        <div className="skills-carousel">
+          <div className="marquee-content">
+            {/* Slide 1 */}
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+              <span>Python</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+              <span>JavaScript</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+              <span>React</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+              <span>Node.js</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+              <span>MySQL</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+              <span>MongoDB</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+              <span>PostgreSQL</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+              <span>Docker</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+              <span>Git</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" />
+              <span>AWS</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+              <span>Java</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" />
+              <span>Kubernetes</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" />
+              <span>GCP</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" />
+              <span>Power BI</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="Tableau" />
+              <span>Tableau</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" alt="PySpark" />
+              <span>PySpark</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" alt="Airflow" />
+              <span>Airflow</span>
+            </div>
+
+            {/* Duplicate for seamless loop */}
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" />
+              <span>Python</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" />
+              <span>JavaScript</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React" />
+              <span>React</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js" />
+              <span>Node.js</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" />
+              <span>MySQL</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB" />
+              <span>MongoDB</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/postgresql/postgresql-original.svg" alt="PostgreSQL" />
+              <span>PostgreSQL</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker" />
+              <span>Docker</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git" />
+              <span>Git</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/amazonwebservices/amazonwebservices-original-wordmark.svg" alt="AWS" />
+              <span>AWS</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original.svg" alt="Java" />
+              <span>Java</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/kubernetes/kubernetes-plain.svg" alt="Kubernetes" />
+              <span>Kubernetes</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/googlecloud/googlecloud-original.svg" alt="GCP" />
+              <span>GCP</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/c/cf/New_Power_BI_Logo.svg" alt="Power BI" />
+              <span>Power BI</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/4/4b/Tableau_Logo.png" alt="Tableau" />
+              <span>Tableau</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/apachespark/apachespark-original.svg" alt="PySpark" />
+              <span>PySpark</span>
+            </div>
+            <div className="marquee-item">
+              <img src="https://upload.wikimedia.org/wikipedia/commons/d/de/AirflowLogo.png" alt="Airflow" />
+              <span>Airflow</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* FAQ Section */}
       <section className="faq-section container">
         <h2 className="section-title reveal">Frequently Asked Questions</h2>

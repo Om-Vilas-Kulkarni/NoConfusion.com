@@ -9,7 +9,7 @@ const Footer = () => {
         <div className="footer-grid">
           <div className="footer-brand">
             <Link to="/" className="logo">
-              <Compass size={24} color="var(--primary)" />
+              <img src="/favicon.svg" alt="Logo" style={{ width: '24px', height: '24px' }} />
               <span>No<span className="gradient-text">Confusion</span></span>
             </Link>
             <p className="footer-tagline">Curated learning paths to help you master tech — no confusion, no overwhelm.</p>
@@ -20,6 +20,7 @@ const Footer = () => {
             <ul className="footer-links">
               <li><Link to="/">Home</Link></li>
               <li><a href="/#professions">All Paths</a></li>
+              <li><Link to="/certifications">Certifications</Link></li>
             </ul>
           </div>
 

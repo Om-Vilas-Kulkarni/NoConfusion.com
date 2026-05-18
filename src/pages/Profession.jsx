@@ -1,69 +1,35 @@
-import { useParams, Navigate, Link } from 'react-router-dom';
+import { useParams, Navigate } from 'react-router-dom';
 import { professions } from '../data/courses';
-import { useEffect, useState } from 'react';
+import { useEffect } from 'react';
 import { useReveal } from '../hooks/useReveal';
-import * as LucideIcons from 'lucide-react';
+
+const getCorrectedWatchUrl = (embedUrl) => {
+  if (!embedUrl) return '';
+  if (embedUrl.includes('videoseries?list=')) {
+    const listId = embedUrl.split('videoseries?list=')[1];
+    return `https://www.youtube.com/playlist?list=${listId}`;
+  } else if (embedUrl.includes('/embed/')) {
+    const videoId = embedUrl.split('/embed/')[1];
+    return `https://www.youtube.com/watch?v=${videoId}`;
+  }
+  return embedUrl;
+};
 
 const Profession = () => {
   const { id } = useParams();
   const profession = professions.find((p) => p.id === id);
-  const [isSidebarOpen, setIsSidebarOpen] = useState(false);
   useReveal();
 
   useEffect(() => {
     window.scrollTo(0, 0);
-    setIsSidebarOpen(false);
   }, [id]);
 
   if (!profession) {
     return <Navigate to="/" />;
   }
 
-  const toggleSidebar = () => setIsSidebarOpen(!isSidebarOpen);
-
   return (
-    <div className={`animate-fade-in profession-dashboard ${isSidebarOpen ? 'sidebar-open' : ''}`}>
-      {/* Mobile Toggle Button */}
-      <button className="sidebar-toggle-btn glass-panel" onClick={toggleSidebar}>
-        {isSidebarOpen ? <LucideIcons.X size={20} /> : <LucideIcons.Menu size={20} />}
-      </button>
-
-      {/* Mobile Overlay */}
-      {isSidebarOpen && (
-        <div className="sidebar-overlay" onClick={() => setIsSidebarOpen(false)}></div>
-      )}
-
-      <aside className={`learning-sidebar glass-panel ${isSidebarOpen ? 'show' : ''}`}>
-        <div className="sidebar-content">
-          <div className="sidebar-group">
-            <h4 className="sidebar-label">Navigation</h4>
-            <Link to="/" className="sidebar-link" onClick={() => setIsSidebarOpen(false)}>
-              <LucideIcons.Home size={18} /> Home
-            </Link>
-            <Link to="/all-paths" className="sidebar-link" onClick={() => setIsSidebarOpen(false)}>
-              <LucideIcons.Grid size={18} /> All Paths
-            </Link>
-          </div>
-
-          <div className="sidebar-group">
-            <h4 className="sidebar-label">Other Careers</h4>
-            <div className="sidebar-paths">
-              {professions.map((p) => (
-                <Link 
-                  key={p.id} 
-                  to={`/profession/${p.id}`} 
-                  className={`sidebar-link ${p.id === id ? 'active' : ''}`}
-                  onClick={() => setIsSidebarOpen(false)}
-                >
-                  <span className="path-dot" style={{ backgroundColor: p.color }}></span>
-                  {p.title}
-                </Link>
-              ))}
-            </div>
-          </div>
-        </div>
-      </aside>
-
+    <div className="animate-fade-in profession-dashboard">
       <main className="dashboard-content">
         <section className="profession-header">
           <div className="container-wide">
@@ -85,13 +51,27 @@ const Profession = () => {
                     <h2>{step.title.replace(/^\d+\.\s*/, '')}</h2>
                   </div>
                   {step.videoUrl && (
-                    <div className="video-container">
-                      <iframe 
-                        src={step.videoUrl} 
-                        title={step.title}
-                        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
-                        allowFullScreen
-                      ></iframe>
+                    <div className="video-section">
+                      <div className="video-container" style={{ position: 'relative' }}>
+                        <iframe 
+                          src={step.videoUrl} 
+                          title={step.title}
+                          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" 
+                          allowFullScreen
+                        ></iframe>
+                        
+                        {/* Hover Overlay as the Link */}
+                        <a 
+                          href={getCorrectedWatchUrl(step.videoUrl)} 
+                          target="_blank" 
+                          rel="noopener noreferrer"
+                          className="video-hover-overlay"
+                        >
+                          <span className="youtube-hover-btn">
+                            Watch on YouTube ↗
+                          </span>
+                        </a>
+                      </div>
                     </div>
                   )}
                 </div>
