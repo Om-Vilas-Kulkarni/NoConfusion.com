@@ -1,12 +1,12 @@
 import { BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
-import ChatBot from './components/ChatBot';
 import Home from './pages/Home';
 import Profession from './pages/Profession';
 import AllPaths from './pages/AllPaths';
 import Certifications from './pages/Certifications';
 import BackgroundIcons from './components/BackgroundIcons';
+
 
 function App() {
   return (

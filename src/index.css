@@ -1742,15 +1742,6 @@ body.light-theme .faq-item.faq-open {
   }
 }
 
-@media (max-width: 480px) {
-  .chatbot-tooltip {
-    right: 1.5rem;
-    bottom: 5.5rem;
-    max-width: 180px;
-    font-size: 0.75rem;
-  }
-}
-
 /* Certifications Page */
 .certifications-page {
   padding-top: 8rem; /* Space for fixed navbar */
