@@ -1,5 +1,4 @@
-# 🎯 NoConfusion.com (NoConfusion)
-
+# [🎯 NoConfusion.com](https://no-confusion-com.vercel.app)
 <div align="center">
 
 ![NoConfusion Banner](https://img.shields.io/badge/NoConfusion.com-Stop%20The%20Confusion.%20Start%20Learning.-6366f1?style=for-the-badge&logo=react)
