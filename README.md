@@ -1,22 +1,14 @@
-# [🎯 NoConfusion.com](https://no-confusion-com.vercel.app)
+# [🎯 NoConfusion](https://no-confusion-com.vercel.app)
 <div align="center">
-
-![NoConfusion Banner](https://img.shields.io/badge/NoConfusion.com-Stop%20The%20Confusion.%20Start%20Learning.-6366f1?style=for-the-badge&logo=react)
-
-[![React Version](https://img.shields.io/badge/React-19.2-61dafb?style=flat-border&logo=react)](https://react.dev)
-[![Vite Version](https://img.shields.io/badge/Vite-8.0-ffd627?style=flat-border&logo=vite)](https://vite.dev)
-[![Lucide Icons](https://img.shields.io/badge/Icons-Lucide-ec4899?style=flat-border)](https://lucide.dev)
-[![License: MIT](https://img.shields.io/badge/License-MIT-10b981?style=flat-border)](LICENSE)
 
 **Helping techies find the right courses for their careers by decluttering the noise of YouTube, skipping choice paralysis, and providing a kickstart track for their career.**
 
-[View Learning Paths](#-curated-career-paths) • [Key Features](#-key-features) • [Installation](#-getting-started)
+
 
 </div>
 
----
 
-## 💡 The Problem
+## 💡 The Problem Statement
 
 Learning tech online has never been easier, yet it has never been harder. 
 
@@ -54,17 +46,16 @@ Direct integration with the best verification and challenge platforms—such as 
 
 ## 🛣️ Curated Career Paths
 
-Our current tracks cover highly-demanded professions:
+| Path | Description |
+|:---|:---|
+| 💻 **Software Engineering** | Master app-building, system design, and scalable architecture. |
+| 📈 **Data Analytics** | Extract insights from datasets using visualization & SQL. |
+| 🗄️ **Data Engineering** | Build robust data pipelines and manage modern data stacks. |
+| 🧠 **Data Science** | Dive deep into machine learning, statistics, and artificial intelligence. |
+| 🔢 **Data Structures & Algorithms** | Ace technical interviews at top-tier tech companies. |
+| 💼 **Personal Finance** | Take control of your money, invest, and build long-term wealth. |
 
-| Path | Description | Highlight Skills |
-| :--- | :--- | :--- |
-| **💻 Software Engineering** | Master app-building, system design, and scalable architecture. | JS, React, Node.js, Web Development |
-| **📈 Data Analytics** | Extract insights from datasets using visualization & SQL. | SQL, Python, Excel, Power BI, Tableau |
-| **🗄️ Data Engineering** | Build robust data pipelines and manage modern data stacks. | PySpark, Airflow, SQL, PostgreSQL, Python |
-| **🧠 Data Science** | Dive deep into machine learning, statistics, and artificial intelligence. | ML Algorithms, Python, EDA, Math |
-| **🔢 Data Structures & Algorithms** | Ace technical interviews at top-tier tech companies. | Big O, Arrays, Graphs, Recursion |
-| **💼 Personal Finance** | Take control of your money, invest, and build long-term wealth. | Budgeting, Tax Planning, Investing |
-
+> And many more career paths coming soon...
 ---
 
 ## 🛠️ Tech Stack & Architecture
@@ -112,28 +103,9 @@ You can preview the production bundle locally with:
 ```bash
 npm run preview
 ```
-
 ---
 
-## 🤝 Contributing
+## 👨‍💻 Authors
 
-We welcome contributions to help improve NoConfusion! Whether it's correcting a video link, suggesting a new path, or improving the career diagnosis question set:
+- [**Om Kulkarni**](https://github.com/Om-Vilas-Kulkarni)
 
-1. **Fork** the repository.
-2. Create a new branch: `git checkout -b feature/cool-new-roadmap`.
-3. Make your changes and **commit** them: `git commit -m 'Add Go Developer Roadmap'`.
-4. **Push** your branch: `git push origin feature/cool-new-roadmap`.
-5. Open a **Pull Request**.
-
----
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-<div align="center">
-  <h3>Stop searching, start scaling! 🚀</h3>
-  <p>Created to simplify tech education. Say goodbye to hopping and hello to learning.</p>
-</div>
