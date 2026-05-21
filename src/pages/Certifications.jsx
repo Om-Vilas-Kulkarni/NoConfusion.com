@@ -8,21 +8,21 @@ const certificationsData = [
     name: 'HackerRank',
     description: 'Best platform to practice coding and get certificates in various skills like Problem Solving, Python, SQL and Java to put on your resume.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/4/40/HackerRank_Icon-1000px.png',
-    url: 'https://www.hackerrank.com/certificates',
+    url: 'https://www.hackerrank.com',
   },
   {
     id: 2,
     name: 'LeetCode',
     description: 'Best platform to learn & solve DSA problems and prepare for technical interviews.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/1/19/LeetCode_logo_black.png',
-    url: 'https://leetcode.com/explore/',
+    url: 'https://leetcode.com/explore',
   },
   {
     id: 3,
     name: 'Coursera',
     description: 'Build skills with courses, certificates, and degrees from top universities and companies.',
     image: 'https://upload.wikimedia.org/wikipedia/commons/9/97/Coursera-Logo_600x600.svg',
-    url: 'https://www.coursera.org/',
+    url: 'https://www.coursera.org',
   }
 ];
 

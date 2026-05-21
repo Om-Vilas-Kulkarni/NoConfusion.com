@@ -53,16 +53,20 @@ export const professions = [
     color: '#f59e0b',
     steps: [
       {
-        title: '1. Relational Databases & SQL',
-        videoUrl: 'https://www.youtube.com/embed/7S_tz1z_5bA',
+        title: '1. Python Full Course',
+        videoUrl: 'https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9agICnT8t4iYVSZ3eykIAOME',
       },
       {
-        title: '2. Python for Data Engineering',
-        videoUrl: 'https://www.youtube.com/embed/tW1z5N_hP9I',
+        title: '2. Big Data - NumPy, Pandas & More',
+        videoUrl: 'https://www.youtube.com/embed/videoseries?list=PLu0W_9lII9agK8pojo23OHiNz3Jm6VQCH',
       },
       {
-        title: '3. Big Data & Cloud (AWS/GCP)',
-        videoUrl: 'https://www.youtube.com/embed/uA7G_I4P8hU',
+        title: '3. SQL & PostgreSQL',
+        videoUrl: 'https://www.youtube.com/embed/cnzka7kF5Zk',
+      },
+      {
+        title: '4. PySpark - Python API for Apache Spark',
+        videoUrl: 'https://www.youtube.com/embed/94w6hPk7nkM',
       }
     ]
   },
