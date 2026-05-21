@@ -1,4 +1,4 @@
-# [🎯 NoConfusion](https://no-confusion-com.vercel.app)
+# [🎯 NoConfusion.com](https://no-confusion-com.vercel.app)
 <div align="center">
 
 **Helping techies find the right courses for their careers by decluttering the noise of YouTube, skipping choice paralysis, and providing a kickstart track for their career.**
