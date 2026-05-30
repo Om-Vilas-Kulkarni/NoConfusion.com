@@ -11,6 +11,10 @@ const Home = () => {
 
   const faqs = [
     {
+      q: "How to watch the courses?",
+      a: "We highly recommend following the courses according to the labelled number on the video titles. This ensures a solid, step-by-step understanding of foundational concepts before moving to the next courses on the learning path."
+    },
+    {
       q: "Are these roadmaps truly free?",
       a: "Yes, 100%. We curate the best free educational content from high-quality creators on YouTube so you don't have to pay for expensive bootcamps."
     },

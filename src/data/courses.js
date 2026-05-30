@@ -40,15 +40,23 @@ export const professions = [
         videoUrl: 'https://www.youtube.com/embed/cnzka7kF5Zk',
       },
       {
-        title: "4. Data Analytics Full Course",
-        videoUrl: 'https://youtube.com/embed/videoseries?list=PLmejDGrsgFyCD25L2XEKESQEw8smsY6WO',
+        title: '4. ROW_NUMBER() Window Function',
+        videoUrl: 'https://www.youtube.com/embed/cvrwOoGwgz8?si=MrbKoqpadJpwaRSZ',
+      },
+      {
+        title: '5. Order of Execution of SQL Queries',
+        videoUrl: 'https://www.youtube.com/embed/wP2giPPgwqI?si=xbc4VJ8vEpQE5xUM',
+      },
+      {
+        title: "6. MS Excel, Power Query & Power BI",
+        videoUrl: 'https://www.youtube.com/embed/videoseries?list=PLmejDGrsgFyCD25L2XEKESQEw8smsY6WO',
       }
     ]
   },
   {
     id: 'data-engineering',
     title: 'Data Engineering',
-    description: 'Build data pipelines, manage data warehouses, and handle big data using modern data stacks.',
+    description: 'Build data ETL pipelines, manage data warehouses, and handle big data using modern data stacks.',
     iconName: 'Database',
     color: '#f59e0b',
     steps: [
@@ -65,7 +73,15 @@ export const professions = [
         videoUrl: 'https://www.youtube.com/embed/cnzka7kF5Zk',
       },
       {
-        title: '4. PySpark - Python API for Apache Spark',
+        title: '4. ROW_NUMBER() Window Function',
+        videoUrl: 'https://www.youtube.com/embed/cvrwOoGwgz8?si=MrbKoqpadJpwaRSZ',
+      },
+      {
+        title: '5. Order of Execution of SQL Queries',
+        videoUrl: 'https://www.youtube.com/embed/wP2giPPgwqI?si=xbc4VJ8vEpQE5xUM',
+      },
+      {
+        title: '6. PySpark - Python API for Apache Spark',
         videoUrl: 'https://www.youtube.com/embed/94w6hPk7nkM',
       }
     ]
